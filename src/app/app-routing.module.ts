@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'triagem',
+    loadChildren: () => import('./triagem/triagem.module').then( m => m.TriagemPageModule)
+  },
 ];
 
 @NgModule({
