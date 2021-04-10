@@ -2,9 +2,22 @@ ion-content {
     border: darkgoldenrod 2px solid;
 }
 
-ion-card {
+div {
+    margin: 10px;
+    text-align: center;
     height: 80%;
     display: block;
 }
 
-ion-button {}
+#imgUser {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+ion-icon {
+    max-height: 50%;
+    max-width: 80%;
+    margin: 60px 0 40px;
+    line-height: 1.5;
+}

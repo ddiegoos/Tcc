@@ -2,18 +2,17 @@
 
 </ion-header>
 
-<ion-content [fullscreen]="true" color="primary">
+<ion-content [fullscreen]="true">
 
-    <ion-card>
+    <div>
+        <ion-icon id="imgUser" name="receipt-outline" color="medium"></ion-icon>
+    </div>
 
-        Logo do aplicativo
-
-    </ion-card>
 
     <ion-row>
         <ion-col width=50 style="text-align: center;">
 
-            <ion-button color="Danger" (click)="carregartela('triagem')">Faça seu lembre !!</ion-button>
+            <ion-button position="floating" color="Danger" (click)="carregartela('triagem')">Faça seu lembre !!</ion-button>
 
         </ion-col>
     </ion-row>
