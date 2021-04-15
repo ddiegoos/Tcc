@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-triagem',
   templateUrl: './triagem.page.html',
   styleUrls: ['./triagem.page.scss'],
 })
-export class TriagemPage implements OnInit {
+export class TriagemPage{
 
-  constructor() { }
+  constructor(public navCtrl: NavController) { }
 
-  ngOnInit() {
+  carregartela1(page){
+    this.navCtrl.navigateForward(page);
   }
-
 }
